@@ -14,7 +14,7 @@ typedef struct {
 void updateParticle(Particle *p) {
     p->position += p->velocity * TIME_INTERVAL;
 
-    // Reflective boundaries
+    // Reflective boundaries - particle comes back with component perpendicular to surface inverted
     if (p->position >= BOX_SIZE || p->position <= 0) {
         p->velocity = -p->velocity;
         p->position = (p->position >= BOX_SIZE) ? 2*BOX_SIZE - p->position : -p->position;
