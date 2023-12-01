@@ -35,5 +35,7 @@ int main() {
         printf("Time: %f, Position: %f, Velocity: %f\n", t * TIME_INTERVAL, p.position, p.velocity);
     }
 
+    printf("\nTHE END MF.");
+
     return 0;
 }
