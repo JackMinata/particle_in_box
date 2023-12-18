@@ -4,7 +4,7 @@
 
 #define TIME_STEPS 1000
 #define BOX_SIZE 10.0
-#define TIME_INTERVAL 0.15
+#define TIME_INTERVAL 0.1
 
 typedef struct {
     double position;
